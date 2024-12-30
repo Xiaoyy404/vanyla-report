@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url('wallpaper.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.zamr {
+    text-align: center;
+    background: transparent;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3px);
+    color: #fff;
+    width: 350px;
+}
+
+h2 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.google-logo {
+  margin-bottom: 20px;
+  background: transparent;
+  backdrop-filter: blur(10px);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  color: #fff;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+select, textarea, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.options-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.options-bar label {
+  display: block;
+  font-size: 14px;
+}
